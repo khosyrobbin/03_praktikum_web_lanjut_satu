@@ -4,11 +4,11 @@
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="about.html">About Us</a>
+    <a class="nav-link" href="{{url('/about')}}">About Us</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="services.html">Our Services</a>
+    <a class="nav-link" href="{{url('/services')}}">Our Services</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="contact.html">Contact Us</a>
+    <a class="nav-link" href="{{url('/contact')}}">Contact Us</a>
   </li>

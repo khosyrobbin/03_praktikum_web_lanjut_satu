@@ -12,29 +12,42 @@ class HomeController extends Controller
         return view('index');
     }
 
-    public function home()
-    {
-        return view('home');
-    }
+    // public function home()
+    // {
+    //     return view('home');
+    // }
 
-    public function product(){
-        return view('product');
-    }
+    // public function product(){
+    //     return view('product');
+    // }
 
-    public function news($tittle){
-        return view('news', ['tittle'=>$tittle]);
-    }
+    // public function news($tittle){
+    //     return view('news', ['tittle'=>$tittle]);
+    // }
 
-    public function program(){
-        return view('program');
-    }
+    // public function program(){
+    //     return view('program');
+    // }
 
+    // public function about(){
+    //     return view('about-us');
+    // }
+
+    // public function contact(){
+    //     return view('contact-us');
+    // }
+
+    //praktikum 2
     public function about(){
-        return view('about-us');
-    }
-
+            return view('about');
+        }
+    
     public function contact(){
-        return view('contact-us');
-    }
+            return view('contact');
+        }
+    public function services(){
+            return view('services');
+        }
+
 
 }
